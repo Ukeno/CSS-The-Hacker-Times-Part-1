@@ -1,1 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+/*Above ^ is the import for fonts*/
+
+/*\0/*/
+body {
+    background-color: #eee;
+    font-family: source sans pro;
+    text-align: justity;
+}
+
+/*Header of the page | Footer is the bottom!*/
+header {
+    font-family: abril fatface;
+    margin: 1.7em;
+}
+
+/*Text in the header*/
+h1 {
+    text-align: center;
+}
+
+/*Main headline*/
+.front-page {
+    margin: 1em 29px -.5em 29px;
+    padding: 0em 40px 1em 5px;
+}
+
+/*Contains everything together*/
+.newspaper-container {
+    width: 700px;
+    background: white;
+    box-shadow: #ddd;
+    border-radius: 10px;
+    box-shadow: 1px 2px;
+    margin: auto;
+    padding: 1em 1px 1em;
+}
+
+/*Date of newsletter*/
+.date {
+    margin: -2em 1px -2em 1px;
+    padding: 0em 0px 0em 0px;
+    font-size: small;
+}
+
+/*Navbar link color and remove decor like underlines*/
+a {
+    color: #777;
+    text-decoration: none;
+}
+
+/*Navbar place links side by side*/
+li {
+    display: inline-block;
+    padding: 1%;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+/*?padding: 4em -10px 4em 50px;? */
+nav {
+    display: inline;
+    font-size: smaller;
+    margin: 0em;
+}  
+
+/*Selects the two articles for manipulation*/
+.articles {
+    display: inline-block;
+    font-family: roboto slab;
+    width: 300px;
+    height: 350px;
+    margin: 1em 1px 0em 29px;
+    padding: 0em 1px 2em 2px;
+}
+
+/*Selects tag to change font color*/
+h5 {
+    color: red;
+}
